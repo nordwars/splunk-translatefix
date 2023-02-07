@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "date": "2022-11-14T17:34:24.238496989Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 431,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "README.txt",
+        "hash": "f6ad47bbc9663f2609bd8e3e1b25b9578e70d14648e3aed2aee745586e1c2070"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "32f3d703bbfaff27667d62c72fea9e6c9b44fbfa5184222c44b761147c9c1da2"
+      },
+      {
+        "path": "default/authorize.conf",
+        "hash": "72d8ad9e89ee0839d0951c82725d551e4508dfac115f261bd6e1bd24fa403577"
+      },
+      {
+        "path": "default/commands.conf",
+        "hash": "48b2988629a4f1f5a456b7314d03210af0ed85623f417bc08b1d50c6caa3db7c"
+      },
+      {
+        "path": "bin/translatefix.cfg",
+        "hash": "1ed3698f6330d90dd123957afc8d0080c2a1b1cef4e57a7ab7921133dc091189"
+      },
+      {
+        "path": "bin/translatefix.py",
+        "hash": "f036325a2197e68b53005a0c2a5e285864cd6ac34d9957e29e0e4053fb4d0c88"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}
