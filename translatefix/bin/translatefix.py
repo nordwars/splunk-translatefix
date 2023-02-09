@@ -14,6 +14,8 @@
 # Versions:
 #   1.0 (01/04/2010) - Initial release to prod
 
+# 1.1 updated to work iwth Python 3
+
 # Import os, sys functionality
 import os, sys
 
@@ -44,10 +46,10 @@ if os.access('translatefix.cfg', os.F_OK):
         try:
             # Call function to do string replace
             line = dorep(line)
-            print line,
+            print (line, end=' ')
         except:
             pass
 else:
     # Create error csv, used by Splunk to display
-    print 'ERROR'
-    print 'translatefix.cfg'
+    print ('ERROR')
+    print ('translatefix.cfg')
